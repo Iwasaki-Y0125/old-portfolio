@@ -1,0 +1,53 @@
+html {
+  font-size: 100%; /* 通常16px相当 */
+  margin: 20px; /* 上・右・下・左すべて20px */
+}
+
+@font-face {
+  font-family: "misaki_gothic_2nd";
+  src: url("fonts/misaki_gothic_2nd.ttf") format("truetype");
+}
+
+body {
+  font-family: "misaki_gothic_2nd", "游ゴシック", "Yu Gothic",
+    "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  font-family: "misaki_gothic_2nd", "游ゴシック", "Yu Gothic",
+    "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.vertical-title {
+  writing-mode: vertical-rl;
+}
+
+nav ul {
+  list-style: none;
+  background-color: transparent;
+  text-align: center;
+  padding: 3rem;
+  border: 2px dotted rgb(0, 0, 0);
+  border-radius: 20px;
+  width: 200px;
+  height: 300px;
+  justify-content: center; /* 横方向の中央 */
+  align-items: center; /* 縦方向の中央 */
+  display: grid;
+}
+p {
+  font-size: 1rem; /* 16px */
+}
+
+.small {
+  font-size: 0.875rem; /* 14px */
+}
