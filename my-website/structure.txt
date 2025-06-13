@@ -1,0 +1,11 @@
+project/
+├── index.html
+├── style.css
+├── script.js
+├── images/
+│   └── pc-dot.png
+├── pages/
+│   ├── profile.html
+│   ├── portfolio.html
+│   ├── game.html
+│   └── contact.html
