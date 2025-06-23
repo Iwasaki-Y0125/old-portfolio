@@ -51,3 +51,7 @@ p {
 .small {
   font-size: 0.875rem; /* 14px */
 }
+
+#url {
+    font-size: 3rem; 
+}
