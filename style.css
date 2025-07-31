@@ -35,7 +35,7 @@ nav ul {
   list-style: none;
   background-color: transparent;
   text-align: center;
-  padding: 3rem;
+  padding: 1rem;
   border: 2px dotted rgb(0, 0, 0);
   border-radius: 20px;
   width: 200px;
@@ -53,5 +53,9 @@ p {
 }
 
 #url {
-    padding: 3rem;
+  margin: 3rem 0;
+}
+
+#new_ulr{
+  font-size: xx-large;
 }
